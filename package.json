@@ -1,0 +1,28 @@
+{
+  "name": "ngx-replier",
+  "version": "1.0.0",
+  "description": "Angular SDK for the Replier.net WhatsApp API",
+  "license": "MIT",
+  "homepage": "https://www.replier.net",
+  "keywords": ["angular", "whatsapp", "replier", "api", "sdk"],
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json -c tsconfig.lib.json",
+    "publish:npm": "npm run build && cd dist && npm publish"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=15.0.0",
+    "@angular/core": ">=15.0.0",
+    "rxjs": ">=7.0.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^17.3.0",
+    "@angular/compiler": "^17.3.0",
+    "@angular/compiler-cli": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "ng-packagr": "^17.3.0",
+    "rxjs": "^7.8.0",
+    "tslib": "^2.6.0",
+    "typescript": "~5.4.0",
+    "zone.js": "^0.14.0"
+  }
+}
